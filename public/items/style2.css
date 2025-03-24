@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(52, 52, 52); /* Dark background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(45deg, #6c757d, #343a40);
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #f8d30a;
+}
+
+
+
+.accordion-item {
+    background-color: #111; /* Accordion dark background */
+    border: 1px solid #444;
+}
+
+.accordion-button {
+    background-color: #222;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #333;
+    color: #f8d30a;
+}
+
+.accordion-body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+h2,
+h3,
+p,
+label {
+    color: #fff; /* Ensure all text elements are white */
+}
+
+.btn-primary {
+    background-color: #f8d30a;
+    color: #000;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ffeb4d;
+}
+
+hr {
+    border-color: #444;
+}
+
+.footer {
+    background: #111;
+    color: #ccc;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #f8d30a;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.card {
+    background-color: #2b2b2b;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.8);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.text-warning i {
+    margin-right: 2px;
+}
+
+h1.small a {
+    text-decoration: none;
+    color: #f8f9fa;
+    transition: color 0.3s;
+}
+
+h1.small a:hover {
+    color: #ffc107;
+}
+
+.bg-info {
+    background: linear-gradient(to right, #17a2b8, #0d6efd) !important;
+}
+
+footer {
+    background-color: #333;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.hover-scale {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+    transform: scale(1.2);
+}

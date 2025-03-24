@@ -1,0 +1,129 @@
+body {
+    font-family: Garamond (serif);
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar {
+    background: linear-gradient(45deg, #6c757d, #343a40);
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #f8d30a;
+}
+
+#about {
+    background: linear-gradient(to right, #ffffff, #f3f4f5);
+    padding: 50px 0;
+}
+
+#about h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+#about ul li i {
+    color: #f8d30a;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+#services {
+    background: linear-gradient(45deg, #6c757d, #343a40);
+    padding: 50px 0;
+}
+
+#services .service-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#services .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#services .service-item i {
+    font-size: 2.5rem;
+    color: #2196f3;
+}
+
+#services .service-item h3 {
+    font-weight: 700;
+    margin-top: 15px;
+    color: #343a40;
+}
+
+#services .service-item p {
+    color: #6c757d;
+}
+
+#features {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+    padding: 50px 0;
+}
+
+#features img {
+    border-radius: 8px;
+}
+
+#features ul li i {
+    color: #f8d30a;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+#features ul li span {
+    font-size: 1.1rem;
+    color: #343a40;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.gradient-custom-2 {
+    background: black;
+    color: white;
+}
+@media (min-width: 700px) {
+    .gradient-form {
+        height: 120vh !important;
+    }
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: black;
+    font: white
+
+
+    }
+
+    @media (min-width: 700px) {
+    .gradient-form {
+    height: 120vh !important;
+    }
+    }
+    @media (min-width: 700px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
